@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(./img/walpaper.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    font: Normal 20pt Arial;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+header {
+    background-color: rgb(165, 132, 83);
+    width: auto;
+    height: auto;
+    margin-top: 80px;
+    padding: 10px 30px;
+    border-radius: 90px;
+    box-shadow: 10px 13px 20px 5px;
+}
+
+section {
+    margin-top: 50px;
+    background-color: rgb(165, 132, 83);
+    width: auto;
+    height: auto;
+    margin-top: 80px;
+    padding: 40px 70px;
+    border-radius: 90px;
+    box-shadow: 10px 13px 20px 5px;
+}
+
+input[type="number"] {
+    width: 90px;
+    background-color: rgb(190, 150, 96);
+    font-size: 15pt;
+    
+}
+
+input[type="button"] {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(190, 150, 96);
+    width: auto;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: 2px solid black;
+    font-size: 15pt;
+    font-weight: 550;
+    transition: 0.5s;
+}
+
+input[type="button"]:hover {
+    background-color: black;
+    color: rgb(190, 150, 96);
+    border-color: rgb(190, 150, 96);
+}
+
+a {
+    text-decoration: none;
+    text-decoration-line: none;
+    color: black;
+    transition: 0.6s;
+}
+
+a:hover {
+    color: rgb(165, 132, 83);
+    
+}
+
+footer {
+    margin-top: 30px;
+    background-color: transparent;
+    padding: 3px 6px;
+    border-radius: 20px;
+    transition: 0.6s;
+}
+
+footer:hover {
+    background-color: black;
+}
